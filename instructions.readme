@@ -11,6 +11,9 @@ pip3 install pymupdf bs4 pdfminer.six soundfile pydub
 pip3 install pyannote.audio
 pip3 install pdfminer.six
 
+Create folder 
+audio_segment, audio_full, pdf before running the code.
+
 Run datadownload
 nohup python download_data.py > output.log 2>&1 &
 
