@@ -1,10 +1,10 @@
 # TemporalTextSummarization
 The code for construct US subcommittee meeting transcript.
 
-datadownload will download the audio to audio_full folder, and meeting detail to output folder
-extract will run segmentation, pyannote and whisper, then store the results to output folder
+# datadownload will download the audio to audio_full folder, and meeting detail to output folder
+# extract will run segmentation, pyannote and whisper, then store the results to output folder
 
-Package install
+# Package install
 pip3 uninstall torch torchvision torchaudio
 pip3 cache purge
 pip install cuda-python
@@ -14,8 +14,8 @@ pip3 install pymupdf bs4 pdfminer.six soundfile pydub
 pip3 install pyannote.audio
 pip3 install pdfminer.six
 
-Run datadownload
+# Run datadownload
 nohup python download_data.py > output.log 2>&1 &
 
-Run extract
+# Run extract
 nohup python extract_longbeach_GPU.py > output_extract4.log 2>&1 &
