@@ -3,6 +3,11 @@ The code for construct US subcommittee meeting transcript.
 datadownload will download the audio to audio_full folder, and meeting detail to output folder
 extract will run segmentation, pyannote and whisper, then store the results to output folder
 
+# Create folder 
+audio_segment, audio_full, pdf, output
+
+# Change city name in the two codes file when needed
+
 # Package install
 pip3 uninstall torch torchvision torchaudio
 pip3 cache purge
