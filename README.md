@@ -1,8 +1,7 @@
 # TemporalTextSummarization
 The code for construct US subcommittee meeting transcript.
-
-# datadownload will download the audio to audio_full folder, and meeting detail to output folder
-# extract will run segmentation, pyannote and whisper, then store the results to output folder
+datadownload will download the audio to audio_full folder, and meeting detail to output folder
+extract will run segmentation, pyannote and whisper, then store the results to output folder
 
 # Package install
 pip3 uninstall torch torchvision torchaudio
